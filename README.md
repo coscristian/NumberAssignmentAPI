@@ -1,5 +1,14 @@
 # Prueba Técnica
 
+## Instructions
+To execute this project you should first run the SQL Script on your MSSQL Server
+[Find here the SQL Server Script](scripts/scriptBD.sql)
+
+Then go to
+**Presentation -> WEP API Project -> appsettings.json**
+to add your server on the defaultConnection as follows
+![ConnectionString](docs/defaultConnection.png)
+
 ## Project Description
 
 This project consists of a .NET Web API that provides a service for assigning 5-digit numbers per client and raffle.
