@@ -11,7 +11,7 @@ namespace DataAccess.DB
         }
         
         public DbSet<Client> Clients { get; set; }
-        public DbSet<ClientRuffleAsignation> ClientRuffleAsignations { get; set; }
+        public DbSet<ClientRaffleAsignation> ClientRuffleAsignations { get; set; }
         public DbSet<Raffle> Raffles { get; set; }
         public DbSet<User> Users { get; set; }
     }

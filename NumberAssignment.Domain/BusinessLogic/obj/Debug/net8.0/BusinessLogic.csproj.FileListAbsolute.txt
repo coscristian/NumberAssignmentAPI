@@ -9,3 +9,8 @@ C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\Busine
 C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
 C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
 C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\BusinessLogic.sourcelink.json
+C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\bin\Debug\net8.0\DataAccess.dll
+C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\bin\Debug\net8.0\DataAccess.pdb
+C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\NumberAssigment\NumberAssignment.Domain\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date

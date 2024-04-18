@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NumberAssignment.Data\DataAccess\DataAccess.csproj" />
+    <ProjectReference Include="..\NumberAssignment.Domain\BusinessLogic\BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>

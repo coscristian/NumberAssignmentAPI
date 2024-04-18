@@ -1,16 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using BusinessLogic.NumberAssignment;
 
 namespace NumberAssignmentAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class NumberAssignmentController : ControllerBase
-    {
-        [HttpGet]
-        public async Task<IActionResult> GetNumber()
+    {        
+        private readonly NumberAssigment _businessLogic;
+
+        public NumberAssignmentController(NumberAssigment businessLogic)
         {
-            var myRandomNumber = new Random().Next();
+            _businessLogic = businessLogic;
+        }
+
+        [HttpGet]
+        public IActionResult GetNumber(int clientId, int userId, int raffleId)
+        {
+            var myRandomNumber = _businessLogic.GetNumber(clientId, userId, raffleId);
 
             return Ok(myRandomNumber);
         }
