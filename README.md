@@ -4,9 +4,9 @@
 To execute this project you should first run the SQL Script on your MSSQL Server
 [Find here the SQL Server Script](scripts/scriptBD.sql)
 
-Then go to
+Once you have cloned this repository, go to 
 **Presentation -> WEP API Project -> appsettings.json**
-to add your server on the defaultConnection as follows
+to add your server on the defaultConnection as follows:
 ![ConnectionString](docs/defaultConnection.png)
 
 ## Project Description
