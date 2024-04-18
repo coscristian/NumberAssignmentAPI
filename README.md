@@ -24,7 +24,6 @@ The project is organized into 3 layers as follows:
 - **Presentation**: Contains the API controllers.
 - **Domain**: Contains the business logic implemented by the API.
 - **Data**: Contains objects (Entities) for data manipulation in memory and data access.
-- **Data**: Contains data access logic, such as repositories or database context classes.
 
 ## Endpoint
 
